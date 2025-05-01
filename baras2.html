@@ -1,0 +1,335 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap"
+  rel="stylesheet"
+/>
+
+<style>
+  html,
+  body,
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* .hind-light {
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .hind-regular {
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .hind-medium {
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .hind-semibold {
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .hind-bold {
+    font-family: "Hind", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+
+  /* .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  } */
+
+  /* .tiro-devanagari-marathi-regular {
+    font-family: "Tiro Devanagari Marathi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .tiro-devanagari-marathi-regular-italic {
+    font-family: "Tiro Devanagari Marathi", serif;
+    font-weight: 400;
+    font-style: italic;
+  } */
+
+  .heading {
+    font-family: "Tiro Devanagari Marathi", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(192 24 24);
+
+    background: -webkit-linear-gradient(rgb(192 24 24), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .normalText {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .babyImage {
+    background: url(../bg1.jpg);
+    background: url(../bg2.jpg);
+    background: url(../bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .babyNamkaranHeading.heading {
+    font-size: 5.5vw;
+    position: absolute;
+    top: 25.5vh;
+    left: 38vw;
+  }
+
+  .babyInvitationDate {
+    position: absolute;
+    top: 59.5vh;
+    font-size: 4vw;
+    left: 33vw;
+  }
+  .paraTitle.heading {
+    position: absolute;
+    font-size: 4vw;
+    position: absolute;
+    top: 32.25vh;
+    left: 35vw;
+  }
+
+  .paraText.normalText {
+    font-size: 3.25vw;
+    line-height: 1.5;
+    position: absolute;
+    top: 35.5vh;
+    left: 35vw;
+  }
+  .babyLocation.heading {
+    font-size: 4.5vw;
+    position: absolute;
+    top: 63.5vh;
+    left: 35vw;
+  }
+
+  .babyLocationDetails.normalText {
+    font-size: 3.25vw;
+    position: absolute;
+    top: 67vh;
+    left: 35vw;
+  }
+
+  .babyNimantrak.heading {
+    position: absolute;
+    top: 136vw;
+    font-size: 4.5vw;
+    left: 63vw;
+  }
+
+  .babyNimantrak1.normalText {
+    position: absolute;
+    font-size: 3.25vw;
+    top: 142vw;
+    left: 50vw;
+    text-align: right;
+  }
+
+  .babyNimantrak2.normalText {
+    position: absolute;
+    font-size: 3.25vw;
+    top: 135vw;
+    left: 62vw;
+    text-align: right;
+  }
+  .babyim {
+    position: absolute;
+    width: 30vw;
+    top: 2vh;
+    left: 66vw;
+  }
+
+  .babyNamkaranHeading1.heading {
+    font-size: 4vw;
+    position: absolute;
+    top: 52.5vh;
+    left: 38vw;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(164, 38, 44), rgb(109 21 23));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+
+<body>
+  <div class="babyImage">
+    <div class="babyim"><img src="babyImg.png" alt="" /></div>
+    <div class="babyNamkaranHeading heading">नामकरण सोहळा समारंभ</div>
+    <div class="babyInvitationDate heading">
+      शनिवार, दि. ३ मे २०२५ रोजी, संध्या. ४ वा.
+    </div>
+
+    <div class="babyInvitationPara normalText">
+      <div class="paraTitle heading">चिमुकली परी आमच्या जीवनात !</div>
+      <div class="paraText normalText">
+        <!-- चंद्रासारखी उजळली आमची सोनुली,<br />
+        फुलांच्या दरवळात फुलली गोड़ कळी,<br />
+        नावाच्या या गोड सोहळ्याला,<br />
+        प्रेमाचा दरवळ घेऊन या सगळ्यांनी! -->
+
+        आनंदाची चाहूल घेऊन इवल्या<br />
+        पावलांनी कोणी आले ?<br />
+        सगे सोयरे जमतील सारे<br />
+        मंगलमय मग घरकुल झाले<br />
+        कोण बरे मग अनामिक आले ?<br />
+        अहो त्याचेच तर नाव ठेवायचे आहे !
+      </div>
+
+      <div class="babyNamkaranHeading1 heading">
+        आपणा सर्वांना आग्रहाचे आमंत्रण<br />
+        माझ्या बारशाला यायचं हं!!!
+      </div>
+    </div>
+
+    <div class="babyLocation heading">स्थळ</div>
+    <div class="babyLocationDetails normalText">
+      जितराज मंगल कार्यालय,<br />
+      गुलमोहर हॉटेल शेजारी,<br />
+      कोरेगाव रेल्वे स्टेशन.
+    </div>
+
+    <div class="babyNimantrak heading">निमंत्रक</div>
+    <div class="babyNimantrak1 normalText">
+      <!-- श्री. राजाराम शंकर मतकर.<br />
+      मो.नं. ९७३०४५४५७३ -->
+      <!-- श्री. धनंजय शंकर तरडे. <br />
+      मो.नं. ८७८८२६८००१ -->
+      समस्त तरडे व मतकर परिवार.<br />
+      मो.नं. 9011097663<br />
+      8788308028
+    </div>
+    <!-- <div class="babyNimantrak2 normalText">
+      श्री. धनंजय शंकर तरडे. <br />
+      मो.नं. ८७८८२६८००१
+    </div> -->
+  </div>
+  <!-- <div class="babyNimantrak2">श्री. श्रीकांत राजाराम मतकर मो.नं. ९८८१९५९७९२</div> -->
+</body>
